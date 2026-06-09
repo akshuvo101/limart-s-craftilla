@@ -26,7 +26,7 @@ export default async function HomePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4')",
+              "url('/image-1.jpg')",
           }}
         />
 
@@ -79,7 +79,7 @@ export default async function HomePage() {
           className="absolute inset-0 opacity-20 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://plus.unsplash.com/premium_photo-1681400765806-e5319b334690?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0')",
+              "url('/image-3.jpg')",
           }}
         />
 
@@ -172,7 +172,7 @@ export default async function HomePage() {
           className="absolute inset-0 opacity-20 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "url('https://plus.unsplash.com/premium_photo-1681400765806-e5319b334690?q=80&w=880&auto=format&fit=crop')",
+              "url('/image-3.jpg')",
           }}
         />
 
@@ -200,7 +200,7 @@ export default async function HomePage() {
           <div className="flex flex-col items-center gap-4 mt-10">
             {/* WhatsApp */}
             <a
-              href="https://wa.me/8801308699488"
+              href="https://wa.me/8801923184970"
               target="_blank"
               className="inline-flex items-center gap-3 bg-green-500 px-8 py-4 rounded-full text-white text-lg font-semibold hover:bg-green-600 transition shadow-xl hover:scale-105"
             >

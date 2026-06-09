@@ -1,36 +1,233 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 LimArts Craftilla
 
-## Getting Started
+A modern healthcare and wellness platform built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
-First, run the development server:
+LimArts Craftilla is a modern online storefront for handmade products. It provides a clean, responsive, and user-friendly experience for exploring unique crafts and collections.
+
+---
+
+## ✨ Features
+
+* ⚡ Built with Next.js App Router
+* 🎨 Modern and responsive UI
+* 📱 Mobile-first design
+* 🚀 Optimized performance and SEO
+* 🔍 Fast navigation and page loading
+* 🎭 Smooth animations with Framer Motion
+* 🧩 Reusable component architecture
+* 🖼️ Optimized images using Next.js Image
+* 🔒 Type-safe development with TypeScript
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology    | Description     |
+| ------------- | --------------- |
+| Next.js 15    | React Framework |
+| TypeScript    | Type Safety     |
+| Tailwind CSS  | Styling         |
+| Framer Motion | Animations      |
+| Lucide React  | Icons           |
+| Vercel        | Deployment      |
+
+---
+
+## 📂 Project Structure
+
+```bash
+.
+├── app/
+│   ├── (public)/
+│   │   ├── about/
+│   │   ├── contact/
+│   │   ├── products/
+│   │   ├── services/
+│   │   └── page.tsx
+│   │
+│   ├── (shop)/
+│   │   ├── cart/
+│   │   └── checkout/
+│   │
+│   ├── globals.css
+│   └── layout.tsx
+│
+├── components/
+│   ├── cart/
+│   ├── data/
+│   ├── layout/
+│   ├── product/
+│   ├── testimonials/
+│   └── ui/
+│
+├── lib/
+│   ├── utils.ts
+│   └── helpers/
+│
+├── services/
+│   ├── api/
+│   └── business/
+│
+├── store/
+│   ├── cart-store.ts
+│   └── product-store.ts
+│
+├── types/
+│   ├── product.ts
+│   ├── cart.ts
+│   └── index.ts
+│
+├── public/
+│   ├── images/
+│   ├── icons/
+│   ├── products/
+│   └── testimonials/
+│
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+├── next.config.ts
+└── README.md
+```
+
+
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+* Node.js 18+
+* npm, yarn, pnpm, or bun
+
+### Installation
+
+Clone the repository: 
+
+```bash
+git clone https://github.com/akshuvo101/limart-s-craftilla.git
+```
+
+Navigate to the project:
+
+```bash
+cd limarts-craftilla
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Production Build
 
-To learn more about Next.js, take a look at the following resources:
+Create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the production server:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧹 Linting
+
+```bash
+npm run lint
+```
+
+---
+
+## 🎨 Customization
+
+You can customize:
+
+* Colors from Tailwind configuration
+* Images inside `/public/images`
+* Site content in the `app` directory
+* Components inside `/components`
+
+---
+
+## 📱 Responsive Design
+
+The application is optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile Devices
+
+---
+
+## 🔥 Performance Optimizations
+
+* Server Components
+* Static Rendering
+* Image Optimization
+* Font Optimization
+* Lazy Loading
+* Code Splitting
+
+---
+
+## 🚀 Deployment
+
+### Deploy on Vercel
+
+1. Push your project to GitHub
+2. Import the repository into Vercel
+3. Deploy with one click
+
+```bash
+https://vercel.com
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Developed with ❤️ using Next.js, TypeScript, and Tailwind CSS.
+
+If you like this project, consider giving it a ⭐ on GitHub.

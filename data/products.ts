@@ -7,7 +7,7 @@ export const products: Product[] = [
     price: 500,
     slug: "craft-basket",
     image:
-      "https://www.mixmeasuremake.com/wp-content/uploads/2021/11/Gift-Ideas-for-makers-1200-1024x1024.jpg",
+      "/crafted-basket-1.webp",
 
     images: [
       // "https://www.mixmeasuremake.com/wp-content/uploads/2021/11/Gift-Ideas-for-makers-1200-1024x1024.jpg",
@@ -24,7 +24,7 @@ export const products: Product[] = [
     price: 300,
     slug: "good-luck-vase",
     image:
-      "https://images.unsplash.com/photo-1620619767323-b95a89183081",
+      "/goodluck-vase.jpg",
 
     images: [
       // "https://images.unsplash.com/photo-1620619767323-b95a89183081",
@@ -40,7 +40,7 @@ export const products: Product[] = [
     price: 270,
     slug: "wind-bell",
     image:
-      "https://images.unsplash.com/photo-1680020556920-372479d9e8e6",
+      "/wind-bell.jpg",
 
     images: [
       // "https://images.unsplash.com/photo-1680020556920-372479d9e8e6",
@@ -56,7 +56,7 @@ export const products: Product[] = [
     price: 350,
     slug: "dreamy-lamp",
     image:
-      "https://plus.unsplash.com/premium_photo-1675262785506-b63e6ffd3908",
+      "/dreamy-lamp.jpg",
 
     images: [
       // "https://plus.unsplash.com/premium_photo-1675262785506-b63e6ffd3908",
@@ -72,7 +72,7 @@ export const products: Product[] = [
     price: 300,
     slug: "memory-book",
     image:
-      "https://images.unsplash.com/photo-1677658288237-2fff291a34f0",
+      "memory-book.jpg",
 
     images: [
       // "https://images.unsplash.com/photo-1677658288237-2fff291a34f0",
@@ -88,7 +88,7 @@ export const products: Product[] = [
     price: 300,
     slug: "frame-flair",
     image:
-      "https://images.unsplash.com/photo-1621620211152-db44233d5b6c",
+      "/frame-flair.jpg",
 
     images: [
       // "https://images.unsplash.com/photo-1621620211152-db44233d5b6c",

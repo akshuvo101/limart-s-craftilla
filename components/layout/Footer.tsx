@@ -54,7 +54,7 @@ export default function Footer() {
 
           <ul className="space-y-2 text-sm">
             <li className="flex items-center justify-center md:justify-start gap-2">
-              <Phone size={16} /> +8801308699488
+              <Phone size={16} /> +8801923184970
             </li>
 
             <li className="flex items-center justify-center md:justify-start gap-2">

@@ -145,7 +145,7 @@ const ProductDetails = ({ product, relatedProducts = [] }: Props) => {
 
               {/* WhatsApp */}
               <a
-                href={`https://wa.me/8801308699488?text=I want to order ${product.name}`}
+                href={`https://wa.me/8801923184970?text=I want to order ${product.name}`}
                 target="_blank"
                 className="flex-1 text-center bg-green-500 text-white py-3 rounded-full hover:bg-green-600 transition shadow-md"
               >
