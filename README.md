@@ -1,7 +1,5 @@
 # 🎨 LimArts Craftilla
 
-A modern healthcare and wellness platform built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
-
 LimArts Craftilla is a modern online storefront for handmade products. It provides a clean, responsive, and user-friendly experience for exploring unique crafts and collections.
 
 ---
